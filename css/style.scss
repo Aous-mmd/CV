@@ -1,0 +1,220 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Sriracha-Regular.eot);
+    src: url(../fonts/Sriracha-Regular.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/Sriracha-Regular.woff2) format("woff2"), url(../fonts/Sriracha-Regular.woff) format("woff"),
+        url(../fonts/Sriracha-Regular.ttf) format("truetype"),
+        url(../fonts/Sriracha-Regular.svg#Sriracha-Regular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$background: #0c0b08;
+$dark-gold: #3d3929;
+$gold: #928a63;
+$white-gold: #ada585;
+$choco: #252218;
+
+body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a {
+        font-family: myFont;
+        text-transform: capitalize;
+        color: $white-gold;
+    }
+    header {
+        background: radial-gradient(closest-side at 68% 55%, $dark-gold, $choco, $background);
+        .container-fluid {
+            height: 100vh;
+            .head_title {
+                h1,
+                p {
+                    z-index: 1;
+                    position: absolute;
+                }
+                p {
+                    top: 70%;
+                }
+                padding: 20% 10%;
+            }
+            .aous {
+                padding: 20% 0%;
+                margin-left: -25%;
+                margin-top: -15%;
+                img {
+                    position: absolute;
+                    z-index: 1;
+                    width: 40%;
+                    top: 10%;
+                    left: 16%;
+                }
+            }
+            .images {
+                img {
+                    z-index: 0;
+                    opacity: 0;
+                    width: 10%;
+                    height: 10%;
+                    position: absolute;
+                }
+                #img1 {
+                    top: 0%;
+                    left: 0%;
+                    transform: rotate(340deg);
+                }
+                #img2 {
+                    top: 0%;
+                    left: 0%;
+                    transform: rotate(60deg);
+                }
+                #img3 {
+                    top: 0%;
+                    right: 5%;
+                    transform: rotate(20deg);
+                }
+                #img4 {
+                    top: 0%;
+                    right: 0%;
+                    transform: rotate(120deg);
+                }
+                #img5 {
+                    bottom: 0%;
+                    right: 0%;
+                    transform: rotate(60deg);
+                }
+                #img6 {
+                    bottom: 20%;
+                    right: 0%;
+                    transform: rotate(320deg);
+                }
+                #img7 {
+                    top: 20%;
+                    right: 0%;
+                    transform: rotate(202deg);
+                }
+                #img8 {
+                    top: 50%;
+                    right: 0%;
+                    transform: rotate(20deg);
+                }
+                #img9 {
+                    bottom: 77%;
+                    transform: rotate(250deg);
+                }
+                #img10 {
+                    bottom: 70%;
+                    transform: rotate(280deg);
+                }
+                #img11 {
+                    bottom: 0%;
+                    right: 52%;
+                    transform: rotate(333deg);
+                }
+                #img12 {
+                    bottom: 0%;
+                    right: 25%;
+                    transform: rotate(80deg);
+                }
+                #img13 {
+                    bottom: 0%;
+                    left: 50%;
+                    transform: rotate(180deg);
+                }
+                #img14 {
+                    bottom: 0%;
+                    left: 10%;
+                    transform: rotate(220deg);
+                }
+                #img15 {
+                    bottom: 0%;
+                    left: 55%;
+                    transform: rotate(220deg);
+                }
+                #img16 {
+                    top: 35%;
+                    left: 0%;
+                    transform: rotate(308deg);
+                }
+                #img17 {
+                    top: 14%;
+                    left: 0%;
+                    transform: rotate(36deg);
+                }
+                #img18 {
+                    top: 45%;
+                    left: 0%;
+                    transform: rotate(2deg);
+                }
+                #img19 {
+                    top: 65%;
+                    left: 0%;
+                    transform: rotate(28deg);
+                }
+                #img21 {
+                    top: 30%;
+                    left: 0%;
+                    transform: rotate(28deg);
+                }
+                #img22 {
+                    top: 80%;
+                    left: 0%;
+                    transform: rotate(128deg);
+                }
+                #img23 {
+                    top: 73%;
+                    left: 0%;
+                    transform: rotate(218deg);
+                }
+            }
+        }
+        nav {
+            .uk-navbar-nav {
+                li {
+                    a {
+                        font-family: myFont;
+                        color: $white-gold;
+                    }
+                    &:hover {
+                        a {
+                            font-family: myFont;
+                            color: $gold;
+                            background-color: #3d39276b;
+                        }
+                    }
+                }
+                li.uk-active {
+                    a {
+                        font-family: myFont;
+                        color: $gold;
+                        background-color: #3d39296b;
+                    }
+                }
+            }
+        }
+        .uk-navbar-container:not(.uk-navbar-transparent) {
+            background: $white-gold;
+            li {
+                a {
+                    color: $background;
+                }
+                &:hover {
+                    color: $background;
+                }
+            }
+            li.uk-active {
+                a {
+                    color: $background;
+                }
+            }
+        }
+    }
+    #slider {
+    }
+}

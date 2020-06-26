@@ -1,0 +1,251 @@
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/Sriracha-Regular.eot);
+  src: url(../fonts/Sriracha-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Sriracha-Regular.woff2) format("woff2"), url(../fonts/Sriracha-Regular.woff) format("woff"), url(../fonts/Sriracha-Regular.ttf) format("truetype"), url(../fonts/Sriracha-Regular.svg#Sriracha-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a {
+  font-family: myFont;
+  text-transform: capitalize;
+  color: #ada585;
+}
+
+body header {
+  background: radial-gradient(closest-side at 68% 55%, #3d3929, #252218, #0c0b08);
+}
+
+body header .container-fluid {
+  height: 100vh;
+}
+
+body header .container-fluid .head_title {
+  padding: 20% 10%;
+}
+
+body header .container-fluid .head_title h1,
+body header .container-fluid .head_title p {
+  z-index: 1;
+  position: absolute;
+}
+
+body header .container-fluid .head_title p {
+  top: 70%;
+}
+
+body header .container-fluid .aous {
+  padding: 20% 0%;
+  margin-left: -25%;
+  margin-top: -15%;
+}
+
+body header .container-fluid .aous img {
+  position: absolute;
+  z-index: 1;
+  width: 40%;
+  top: 10%;
+  left: 16%;
+}
+
+body header .container-fluid .images img {
+  z-index: 0;
+  opacity: 0;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+}
+
+body header .container-fluid .images #img1 {
+  top: 0%;
+  left: 0%;
+  -webkit-transform: rotate(340deg);
+          transform: rotate(340deg);
+}
+
+body header .container-fluid .images #img2 {
+  top: 0%;
+  left: 0%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+body header .container-fluid .images #img3 {
+  top: 0%;
+  right: 5%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+body header .container-fluid .images #img4 {
+  top: 0%;
+  right: 0%;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+body header .container-fluid .images #img5 {
+  bottom: 0%;
+  right: 0%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+body header .container-fluid .images #img6 {
+  bottom: 20%;
+  right: 0%;
+  -webkit-transform: rotate(320deg);
+          transform: rotate(320deg);
+}
+
+body header .container-fluid .images #img7 {
+  top: 20%;
+  right: 0%;
+  -webkit-transform: rotate(202deg);
+          transform: rotate(202deg);
+}
+
+body header .container-fluid .images #img8 {
+  top: 50%;
+  right: 0%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+body header .container-fluid .images #img9 {
+  bottom: 77%;
+  -webkit-transform: rotate(250deg);
+          transform: rotate(250deg);
+}
+
+body header .container-fluid .images #img10 {
+  bottom: 70%;
+  -webkit-transform: rotate(280deg);
+          transform: rotate(280deg);
+}
+
+body header .container-fluid .images #img11 {
+  bottom: 0%;
+  right: 52%;
+  -webkit-transform: rotate(333deg);
+          transform: rotate(333deg);
+}
+
+body header .container-fluid .images #img12 {
+  bottom: 0%;
+  right: 25%;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+body header .container-fluid .images #img13 {
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+body header .container-fluid .images #img14 {
+  bottom: 0%;
+  left: 10%;
+  -webkit-transform: rotate(220deg);
+          transform: rotate(220deg);
+}
+
+body header .container-fluid .images #img15 {
+  bottom: 0%;
+  left: 55%;
+  -webkit-transform: rotate(220deg);
+          transform: rotate(220deg);
+}
+
+body header .container-fluid .images #img16 {
+  top: 35%;
+  left: 0%;
+  -webkit-transform: rotate(308deg);
+          transform: rotate(308deg);
+}
+
+body header .container-fluid .images #img17 {
+  top: 14%;
+  left: 0%;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+}
+
+body header .container-fluid .images #img18 {
+  top: 45%;
+  left: 0%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+body header .container-fluid .images #img19 {
+  top: 65%;
+  left: 0%;
+  -webkit-transform: rotate(28deg);
+          transform: rotate(28deg);
+}
+
+body header .container-fluid .images #img21 {
+  top: 30%;
+  left: 0%;
+  -webkit-transform: rotate(28deg);
+          transform: rotate(28deg);
+}
+
+body header .container-fluid .images #img22 {
+  top: 80%;
+  left: 0%;
+  -webkit-transform: rotate(128deg);
+          transform: rotate(128deg);
+}
+
+body header .container-fluid .images #img23 {
+  top: 73%;
+  left: 0%;
+  -webkit-transform: rotate(218deg);
+          transform: rotate(218deg);
+}
+
+body header nav .uk-navbar-nav li a {
+  font-family: myFont;
+  color: #ada585;
+}
+
+body header nav .uk-navbar-nav li:hover a {
+  font-family: myFont;
+  color: #928a63;
+  background-color: #3d39276b;
+}
+
+body header nav .uk-navbar-nav li.uk-active a {
+  font-family: myFont;
+  color: #928a63;
+  background-color: #3d39296b;
+}
+
+body header .uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #ada585;
+}
+
+body header .uk-navbar-container:not(.uk-navbar-transparent) li a {
+  color: #0c0b08;
+}
+
+body header .uk-navbar-container:not(.uk-navbar-transparent) li:hover {
+  color: #0c0b08;
+}
+
+body header .uk-navbar-container:not(.uk-navbar-transparent) li.uk-active a {
+  color: #0c0b08;
+}
+/*# sourceMappingURL=style.css.map */
